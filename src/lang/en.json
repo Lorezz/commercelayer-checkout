@@ -1,0 +1,96 @@
+{
+  "addresses": {
+    "billing_info": "billing info",
+    "city": "city",
+    "country_code": "country",
+    "first_name": "first name",
+    "last_name": "last name",
+    "line_1": "address",
+    "phone": "phone",
+    "state_code": "state code",
+    "zip_code": "zip code"
+  },
+  "errors": {
+    "invalid_gift_card_or_coupon": "This code is not valid",
+    "not_authorized": "Your card was declined",
+    "out_of_stock": "Some items have gone out of stock",
+    "too_short": "This coupon code is too short"
+  },
+  "generic": {
+    "billing_address": "Billing address",
+    "card_cvv": "CVC/CVV",
+    "card_exp_date": "expiry date",
+    "card_number": "card number",
+    "continue_shopping": "continue shopping",
+    "customer": "Customer",
+    "customer_subscription": "Subscribe to newsletter",
+    "customer_subscription_disabled": "You are already subscribed to the newsletter",
+    "edit": "edit",
+    "free_over": "free over",
+    "item": "item | items",
+    "new_address": "New address",
+    "of": "of",
+    "privacy_policy": "privacy policy",
+    "quantity": "quantity",
+    "save_to_address_book": "Save to my address book",
+    "shipment": "shipment",
+    "ship_to_different_address": "ship to different address",
+    "shipping_address": "Shipping address",
+    "ship_to": "Ship to",
+    "terms_of_service": "terms of service",
+    "thankyou": "Thank you",
+    "thankyou_message": "Your order is confirmed"
+  },
+  "order_summary": {
+    "gift_card_or_coupon_code": "Have a gift card or coupon?",
+    "discount": "discount",
+    "hide": "hide order summary",
+    "number": "order number",
+    "payment_method": "payment method",
+    "shipping": "shipping",
+    "show": "show order summary",
+    "subtotal": "subtotal",
+    "taxes": "taxes",
+    "gift_card": "gift card",
+    "title": "order summary",
+    "total": "order total"
+  },
+  "payment_methods": {
+    "adyen": {
+      "title": "credit card"
+    },
+    "braintree": {
+      "title": "credit card"
+    },
+    "paypal": {
+      "title": "paypal",
+      "hint": "by placing the order, you will be redirected to the PayPal website to sign in and authorize the payment"
+    },
+    "stripe": {
+      "title": "credit card"
+    },
+    "wire_transfer": {
+      "title": "wire transfer",
+      "hint": "after placing the order, you will need to manually complete the payment with your bank"
+    }
+  },
+  "steps": {
+    "customer": {
+      "title": "customer",
+      "hint": "billing information and shipping address"
+    },
+    "delivery": {
+      "title": "delivery",
+      "hint": "shipment summary and delivery methods"
+    },
+    "payment": {
+      "title": "payment",
+      "hint": "payment method and order confirmation"
+    }
+  },
+  "buttons": {
+    "continue_to_delivery": "continue to delivery",
+    "continue_to_payment": "continue to payment",
+    "place_order": "place order"
+  }
+}
